@@ -1,0 +1,251 @@
+header, .project:not(:last-child) {
+  border-bottom: 1px solid #291e1e;
+}
+
+.no-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  color: #1b89bc;
+  text-decoration: none;
+  font-size: 100%;
+}
+
+.no-button:hover {
+  color: #065b83;
+  text-decoration: underline;
+}
+
+.dollar-amount {
+  color: #056605;
+  font-weight: bold;
+  margin-left: -5px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Flexbox utility classes */
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.justify-space-around {
+  justify-content: space-around;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.display-flex {
+  display: flex;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Navigation styles */
+nav a {
+  text-decoration: none;
+  color: white;
+  margin-right: 10px;
+}
+
+/* Main content styles */
+main {
+  padding: 20px;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.mt-5 {
+  margin-top: 5px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Button styles */
+button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+button:hover {
+  text-decoration: underline;
+}
+
+
+/* Style for the welcome message */
+.row h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+/* Style for the form section */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style for the project list section */
+.project-list h3 {
+  font-size: 20px;
+  color: #333;
+}
+
+.project-list .row {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.project-list .row:last-child {
+  border-bottom: none;
+}
+
+.project-list .col-md-8 {
+  padding-top: 5px;
+}
+
+.project-list .col-md-4 {
+  text-align: right;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* handlerbars/project */
+
+.text-center {
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+/* Emojis */
+p span {
+  font-size: 20px;
+}
+
+/* Dollar amount */
+.dollar-amount {
+  font-weight: bold;
+}
+
+/* Button */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff; 
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3; 
+}
+
+
+
+/* homepage.handler bars */
+
+.row {
+  margin-bottom: 20px;
+}
+
+.project {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.project h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.project p {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.project .dollar-amount {
+  font-weight: bold;
+}
+
+.project a {
+  color: #007bff; 
+  text-decoration: none;
+}
+
+.project a:hover {
+  text-decoration: underline;
+}
